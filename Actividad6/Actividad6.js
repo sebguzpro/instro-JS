@@ -1,0 +1,23 @@
+//Actividad6
+
+//6.1 concat arrays
+
+var animals = ['eagle', 'parrot', 'monkey', 'boar', 'lion']
+var comingSoonAnimals = ['panther', 'dragon', 'turtle']
+
+animals.concat(comingSoonAnimals)
+
+
+//6.2 order number list
+var arr = [4,6,1,0,8,2]
+arr.sort(function(a,b){return a-b})
+
+//6.3 cow to animals
+var animals = ['eagle', 'parrot', 'monkey', 'boar', 'lion']
+animals.unshift("cow")/*podría ser animals.push("cows") */
+console.log(animals)
+
+//6.3 retira eagle
+var animals = ['eagle', 'parrot', 'monkey', 'boar', 'lion']
+animals.shift()/* shift quita el primero */
+console.log(animals)
