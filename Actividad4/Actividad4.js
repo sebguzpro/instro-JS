@@ -1,5 +1,5 @@
 //1. numero y multiplos de 5 con while
-var elnu = prompt('Elige un número y te mostraré los múltiplos del 5 que sean menores.')  
+var elnu = prompt('Elige un número y te mostraré los múltiplos del 5 que sean menores hasta llegar al que elegiste.')  
 m5 = 1
 while (m5 <= elnu) {
     if(m5%5===0){
