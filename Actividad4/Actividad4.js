@@ -8,7 +8,7 @@ while (m5 <= elnu) {
 } 
 
 //2. lo mismo pero con do while
-var elnu = prompt('Elige un número y te mostraré los múltiplos del 5 que sean menores.')  
+var elnu = prompt('Elige un número y te mostraré los múltiplos del 5 que sean menores hasta llegar al que elegiste')  
 var m5 = 0
 do {
     if(m5%5===0){
