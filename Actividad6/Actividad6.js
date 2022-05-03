@@ -2,10 +2,12 @@
 
 //6.1 concat arrays
 
+
 var animals = ['eagle', 'parrot', 'monkey', 'boar', 'lion']
 var comingSoonAnimals = ['panther', 'dragon', 'turtle']
+var acsa = animals.concat(comingSoonAnimals)
+console.log(acsa)
 
-animals.concat(comingSoonAnimals)
 
 
 //6.2 order number list
