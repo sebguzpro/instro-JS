@@ -16,7 +16,7 @@ arr.sort(function(a,b){return a-b})
 
 //6.3 cow to animals
 var animals = ['eagle', 'parrot', 'monkey', 'boar', 'lion']
-animals.unshift("cow")/*podría ser animals.push("cows") */
+animals.unshift("cow")/*podría ser animals.push("cow") */
 console.log(animals)
 
 //6.3 retira eagle
