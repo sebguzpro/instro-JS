@@ -12,7 +12,8 @@ console.log(acsa)
 
 //6.2 order number list
 var arr = [4,6,1,0,8,2]
-arr.sort(function(a,b){return a-b})
+var arrOrd = arr.sort(function(a,b){return a-b})
+console.log(arrOrd)
 
 //6.3 cow to animals
 var animals = ['eagle', 'parrot', 'monkey', 'boar', 'lion']
